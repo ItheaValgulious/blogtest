@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" fill="none">
+  <rect width="720" height="360" fill="#0f172a" rx="24"/>
+  <rect x="40" y="40" width="210" height="120" rx="20" fill="#f8fafc"/>
+  <rect x="255" y="40" width="210" height="120" rx="20" fill="#cbd5e1"/>
+  <rect x="470" y="40" width="210" height="120" rx="20" fill="#94a3b8"/>
+  <rect x="110" y="220" width="500" height="100" rx="20" fill="#f59e0b"/>
+  <text x="145" y="108" fill="#0f172a" font-family="Georgia, serif" font-size="28">Admin App</text>
+  <text x="295" y="108" fill="#0f172a" font-family="Georgia, serif" font-size="28">API Server</text>
+  <text x="520" y="108" fill="#0f172a" font-family="Georgia, serif" font-size="28">Static Site</text>
+  <text x="240" y="280" fill="#111827" font-family="Georgia, serif" font-size="32">Markdown Content Folder</text>
+  <path d="M250 100H255" stroke="#f59e0b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M465 100H470" stroke="#f59e0b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M145 160V215" stroke="#f8fafc" stroke-width="8" stroke-linecap="round"/>
+  <path d="M360 160V215" stroke="#f8fafc" stroke-width="8" stroke-linecap="round"/>
+  <path d="M575 160V215" stroke="#f8fafc" stroke-width="8" stroke-linecap="round"/>
+</svg>
