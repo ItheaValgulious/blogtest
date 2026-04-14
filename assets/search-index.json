@@ -1,0 +1,20 @@
+[
+  {
+    "excerpt": "New File",
+    "path": "test/new-file.md",
+    "tags": [
+      "test"
+    ],
+    "title": "New File",
+    "urlPath": "/blogtest/posts/test/new-file-2026-04-14/"
+  },
+  {
+    "excerpt": "Heading what?",
+    "path": "test/a.md",
+    "tags": [
+      "knowledge-base"
+    ],
+    "title": "Heading",
+    "urlPath": "/blogtest/posts/test/heading-2026-04-14/"
+  }
+]

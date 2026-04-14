@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>404 - Not Found</title>
-    <meta name="description" content="The page could not be found.">
+    <title>Search</title>
+    <meta name="description" content="Search the knowledge base.">
     <link rel="stylesheet" href="/blogtest/assets/site.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css">
   </head>
@@ -19,11 +19,16 @@
             </nav>
           </header>
       <main class="page-shell">
-        <section class="hero-panel"><h1>404</h1><p>The page could not be found.</p></section>
+        <section class="hero-panel"><h1>Search</h1><p>Find articles by title, path, tag, or excerpt.</p></section>
+      <section class="content-panel">
+        <input class="search-input" data-search-input placeholder="Search articles">
+        <div data-search-results><p>Type to search.</p></div>
+      </section>
+      <script src="/blogtest/assets/search.js"></script>
       </main>
       <footer class="site-footer">
         <span>Eternal Dreamer</span>
-        <span>The page could not be found.</span>
+        <span>Search the knowledge base.</span>
       </footer>
     </div>
   </body>
