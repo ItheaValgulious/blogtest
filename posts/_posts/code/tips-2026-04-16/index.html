@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tips</title>
+    <meta name="description" content="随便记录些小技巧 How to use clash in linux 配置tun模式: 不sudo的话需要给权限: sudo setcap cap net admin+ep /usr/local/bin/clash How to use clash in windows for UWP apps 管理员权限在powershell运行:">
+    <link rel="stylesheet" href="/blogtest/assets/site.css">
+    <link rel="stylesheet" href="/blogtest/render/create.css">
+    <link rel="stylesheet" href="/blogtest/render/dark.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css">
+  </head>
+  <body class="">
+    <div class="site-shell">
+      <header class="site-header">
+            <div>
+              <a class="site-brand" href="/blogtest/">Eternal Dreamer</a>
+            </div>
+            <nav class="site-nav">
+              <a href="/blogtest/">Home</a><a href="/blogtest/tags/">Tags</a><a href="/blogtest/tree/">Tree</a><a href="/blogtest/about/">About</a><a href="/blogtest/search/">Search</a>
+            </nav>
+          </header>
+      <main class="page-shell">
+        <section class="hero-panel">
+          <h1>Tips</h1>
+          <div class="meta-row">
+            <span>published</span>
+            <span>top 0</span>
+            <span>2026-04-16</span>
+          </div>
+          <div class="tag-row"><a class="tag-chip" href="/blogtest/tags/tips/">tips</a></div>
+        </section>
+        <section class="article-layout">
+          <article class="article-panel">
+            <div class="prose"><h1 id="随便记录些小技巧">随便记录些小技巧</h1>
+<h2 id="how-to-use-clash-in-linux">How to use clash in linux</h2>
+<p>配置tun模式:</p>
+<pre><code class="hljs language-yaml">
+<span class="hljs-attr">tun:</span>
+  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span>
+  <span class="hljs-attr">stack:</span> <span class="hljs-string">system</span>
+  <span class="hljs-attr">dns-hijack:</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-number">198.18</span><span class="hljs-number">.0</span><span class="hljs-number">.2</span><span class="hljs-string">:1053</span> 
+  <span class="hljs-attr">auto-route:</span> <span class="hljs-literal">true</span> 
+  <span class="hljs-attr">auto-detect-interface:</span> <span class="hljs-literal">true</span> 
+<span class="hljs-attr">dns:</span>
+  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span>
+  <span class="hljs-attr">listen:</span> <span class="hljs-string">:1053</span>
+  <span class="hljs-attr">default-nameserver:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-number">8.8</span><span class="hljs-number">.8</span><span class="hljs-number">.8</span>
+  <span class="hljs-attr">nameserver:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-number">8.8</span><span class="hljs-number">.8</span><span class="hljs-number">.8</span>
+  <span class="hljs-attr">fallback:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">https://8888.google/dns-query</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">https://1.0.0.1/dns-query</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">https://dns.twnic.tw/dns-query</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">https://doh.opendns.com/dns-query</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">https://dns-nyc.aaflalo.me/dns-query</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">https://dns.aa.net.uk/dns-query</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">https://sg.adhole.org/dns-query</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">https://kaitain.restena.lu/dns-query</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">https://hydra.plan9-ns1.com/dns-query</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">https://jp.tiar.app/dns-query</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-string">https://doh.asia.dnswarden.com/adblock</span>
+  <span class="hljs-attr">fallback-filter:</span>
+    <span class="hljs-attr">geoip:</span> <span class="hljs-literal">true</span>
+    <span class="hljs-attr">geoip-code:</span> <span class="hljs-string">CN</span>
+</code></pre>
+<p>不sudo的话需要给权限:
+sudo setcap cap_net_admin+ep /usr/local/bin/clash</p>
+<h2 id="how-to-use-clash-in-windows-for-uwp-apps">How to use clash in windows for UWP apps</h2>
+<p>管理员权限在powershell运行:</p>
+<pre><code class="hljs language-powershell">foreach ($n in (Get-AppxPackage).PackageFamilyName) {CheckNetIsolation.exe LoopbackExempt -a -n="$n"}
+</code></pre></div>
+            <div class="pager-row">
+              <a href="/blogtest/posts/_posts/code/robomaster-log-2026-04-16/">Older: Robomaster Log</a>
+              <a href="/blogtest/posts/_posts/homework/sem1/linea-algebra-homework-class-1-2026-04-16/">Newer: Linea Algebra Homework - Class 1</a>
+            </div>
+          </article>
+          <aside class="side-panel">
+            <h3>On This Page</h3>
+            <ul><li><a href="#随便记录些小技巧">随便记录些小技巧</a></li><li><a href="#how-to-use-clash-in-linux">How to use clash in linux</a></li><li><a href="#how-to-use-clash-in-windows-for-uwp-apps">How to use clash in windows for UWP apps</a></li></ul>
+          </aside>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <span>Eternal Dreamer</span>
+        <span>随便记录些小技巧 How to use clash in linux 配置tun模式: 不sudo的话需要给权限: sudo setcap cap net admin+ep /usr/local/bin/clash How to use clash in windows for UWP apps 管理员权限在powershell运行:</span>
+      </footer>
+    </div>
+  </body>
+</html>
