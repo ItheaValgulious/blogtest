@@ -1,5 +1,16 @@
 [
   {
+    "excerpt": "Topo Homework Week 7 T1 <div class=\"cbox\" 14. (ER) 设映射 , 如果 的每个点都有一个邻域 , 使得 限制在 上为常数, 则称 是局部常值映射. 证明: (1) 任何局部常值映射都是连续的; (2) 连通空间上的局部常值映射是常值映射. </div <div class='pbox' (1): $ x\\in…",
+    "path": "_posts/homework/sem2/Topo-Homework---Week-7.md",
+    "tags": [
+      "topo",
+      "homework",
+      "math"
+    ],
+    "title": "Topo Homework - Week 7",
+    "urlPath": "/blogtest/posts/_posts/homework/sem2/topo-homework-week-7-2026-04-16/"
+  },
+  {
     "excerpt": "Hello World Introduction 上大学了 从CS转向Math 长期更新数学/大学课程/生活相关内容 OneNote Sharing linear algebra(doneright,homework):https://1drv.ms/o/c/2641d3be39789d74/EtVyU7N6jrtNkENACOSdqv0Bo2fUfdZQ…",
     "path": "_posts/others/250902-hello-world.md",
     "tags": [
