@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cayley Hamilton</title>
     <meta name="description" content="Cayley Hamilton 好了大家都知道内容说的是矩阵 特征多项式 有 如果 或者说,如果 满足 的多项式方程的根也属于 ,即我们可以搞特征值那一套. 证明方法会很多. 比如舒尔定理+因式分解,则 ,你可以排列这些因式使得 且 ,于是乘起来显然对任意向量是 . 比如直接考虑广义本征空间 上 是幂零的. 如果任意域 然后大家都知道你不能直接声称 带进去…">
-    <link rel="stylesheet" href="/blogtest/assets/site.css">
-    
+    <link rel="stylesheet" href="/theme/atlas/chrome.css">
+    <link rel="stylesheet" href="/theme/atlas/prose.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css">
+    
   </head>
   <body class="">
     <div class="paper-background">
@@ -16,13 +17,13 @@
     </div>
     <div class="site-shell">
       <header class="site-header ">
-        <a class="site-brand" href="/blogtest/">
+        <a class="site-brand" href="//">
           <span class="site-brand__mark">ED</span>
           <span class="site-brand__text">Eternal Dreamer</span>
         </a>
         <p class="site-intro">Will you save us?</p>
         <nav class="site-nav">
-          <a href="/blogtest/">Home</a><a href="/blogtest/tags/">Tags</a><a href="/blogtest/tree/">Tree</a><a href="/blogtest/search/">Search</a>
+          <a href="//">Home</a><a href="//tags/">Tags</a><a href="//tree/">Tree</a><a href="//search/">Search</a>
         </nav>
       </header>
       <main class="page-shell">
@@ -30,7 +31,7 @@
           <span class="hero-note">2026-04-16</span>
           <h1>Cayley Hamilton</h1>
           <div class="entry-meta article-hero__meta"><span>2026-04-16</span><span>_posts/math</span></div>
-          <div class="tag-row"><a class="tag-chip" href="/blogtest/tags/linear-algebra/">linear-algebra</a><a class="tag-chip" href="/blogtest/tags/math/">math</a><a class="tag-chip" href="/blogtest/tags/whims/">whims</a></div>
+          <div class="tag-row"><a class="tag-chip" href="//tags/linear-algebra/">linear-algebra</a><a class="tag-chip" href="//tags/math/">math</a><a class="tag-chip" href="//tags/whims/">whims</a></div>
         </section>
         <section class="article-layout">
           <article class="article-panel">
@@ -135,8 +136,8 @@ g(x)=\det f(x)=\det (x_iI-A) \det Q(x)
 <p>一个核心点就在于,我们往矩阵多项式里带入矩阵的话是很小心的(比如<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo stretchy="false">(</mo><mi>B</mi><mo stretchy="false">)</mo><mo mathvariant="normal">≠</mo><mo stretchy="false">(</mo><mi>B</mi><mi>I</mi><mo>−</mo><mi>A</mi><mo stretchy="false">)</mo><mi>Q</mi><mo stretchy="false">(</mo><mi>B</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">F(B)\ne (BI-A)Q(B)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.1389em;">F</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.0502em;">B</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel"><span class="mrel"><span class="mord vbox"><span class="thinbox"><span class="rlap"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="inner"><span class="mord"><span class="mrel"></span></span></span><span class="fix"></span></span></span></span></span><span class="mspace nobreak"></span><span class="mrel">=</span></span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.0502em;">B</span><span class="mord mathnormal" style="margin-right:0.0785em;">I</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">A</span><span class="mclose">)</span><span class="mord mathnormal">Q</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.0502em;">B</span><span class="mclose">)</span></span></span></span>,因为因式分解的时候利用了<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mi>I</mi></mrow><annotation encoding="application/x-tex">xI</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">x</span><span class="mord mathnormal" style="margin-right:0.0785em;">I</span></span></span></span>和<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span>的交换律,而替换成任意矩阵就没有这个性质),但是取行列式转化成标量多项式后就没问题了.</p>
 </div></div>
             <div class="pager-row">
-              <a href="/blogtest/posts/_posts/math/a-fun-problem-about-function-limits-2026-04-16/"><span>Older</span><strong>A Fun Problem about Function Limits</strong></a>
-              <a href="/blogtest/posts/_posts/math/tell-semicontinuous-2026-04-16/"><span>Newer</span><strong>Tell Semicontinuous</strong></a>
+              <a href="/posts/_posts/math/a-fun-problem-about-function-limits-2026-04-16/"><span>Older</span><strong>A Fun Problem about Function Limits</strong></a>
+              <a href="/posts/_posts/math/tell-semicontinuous-2026-04-16/"><span>Newer</span><strong>Tell Semicontinuous</strong></a>
             </div>
           </article>
           <aside class="side-panel">
@@ -152,5 +153,6 @@ g(x)=\det f(x)=\det (x_iI-A) \det Q(x)
         </div>
       </footer>
     </div>
+    
   </body>
 </html>
