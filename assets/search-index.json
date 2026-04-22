@@ -1,5 +1,16 @@
 [
   {
+    "excerpt": "Math Analysis Homework Sem2 Week 7 Class 1 T1 <div class=\"cbox\" 2. 设 , 求 . </div <div class='pbox' $ f(x, y) = \\begin{cases} y \\sin \\frac{1}{x^2 + y^2}, & x^2 + y^2 \\neq 0, \\\\ 0,…",
+    "path": "_posts/homework/sem2/Math-Analysis-Homework---Sem2-Week-7.md",
+    "tags": [
+      "math",
+      "math-analysis",
+      "homework"
+    ],
+    "title": "Math Analysis Homework - Sem2 Week 7",
+    "urlPath": "/posts/_posts/homework/sem2/math-analysis-homework-sem2-week-7-2026-04-22/"
+  },
+  {
     "excerpt": "Topo Homework Week 7 T1 <div class=\"cbox\" 14. (ER) 设映射 , 如果 的每个点都有一个邻域 , 使得 限制在 上为常数, 则称 是局部常值映射. 证明: (1) 任何局部常值映射都是连续的; (2) 连通空间上的局部常值映射是常值映射. </div <div class='pbox' (1): $ x\\in…",
     "path": "_posts/homework/sem2/Topo-Homework---Week-7.md",
     "tags": [
