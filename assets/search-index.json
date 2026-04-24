@@ -1,5 +1,28 @@
 [
   {
+    "excerpt": "Topo Homework Week 8 T1 <div class=\"cbox\" 11. (MRH) 用极坐标 表示平面上的点 , 其中 表示点 到原点的距离, 表示从原点出发过点 的射线与 轴正向的夹角. 设 $ W \\mathbb{R}^2 W W S^1 (1,\\theta) A \\{ (\\dfrac{\\theta+2\\pi n}{\\theta+2…",
+    "path": "_posts/homework/sem2/Topo-Homework---Week-8.md",
+    "tags": [
+      "topo",
+      "homework",
+      "math"
+    ],
+    "title": "Topo Homework - Week 8",
+    "urlPath": "/posts/_posts/homework/sem2/topo-homework-week-8-2026-04-24/"
+  },
+  {
+    "excerpt": "Padic Homework T1 <div class=\"cbox\" 1. 试证明, 若范数 满足对任意的整数 都有 , 则 一定是非阿的. (也就是说, 这个范数同构于某个 adic 范数.) </div 首先看起来这个范数同构于padic不对.比如 不满足() <div class=\"pbox\" 设 .那么容易得到 从而 那么因为 ,所以 .或者说整…",
+    "path": "_posts/homework/sem2/Padic-Homework.md",
+    "tags": [
+      "math",
+      "number",
+      "padic",
+      "homework"
+    ],
+    "title": "Padic Homework",
+    "urlPath": "/posts/_posts/homework/sem2/padic-homework-2026-04-24/"
+  },
+  {
     "excerpt": "Math Analysis Homework Sem2 Week 7 Class 1 T1 <div class=\"cbox\" 2. 设 , 求 . </div <div class='pbox' $ f(x, y) = \\begin{cases} y \\sin \\frac{1}{x^2 + y^2}, & x^2 + y^2 \\neq 0, \\\\ 0,…",
     "path": "_posts/homework/sem2/Math-Analysis-Homework---Sem2-Week-7.md",
     "tags": [
