@@ -11,7 +11,7 @@
     "urlPath": "/posts/_posts/homework/sem2/topo-homework-week-8-2026-04-24/"
   },
   {
-    "excerpt": "Padic Homework T1 <div class=\"cbox\" 1. 试证明, 若范数 满足对任意的整数 都有 , 则 一定是非阿的. (也就是说, 这个范数同构于某个 adic 范数.) </div 首先看起来这个范数同构于padic不对.比如 不满足() <div class=\"pbox\" 设 .那么容易得到 从而 那么因为 ,所以 .或者说整…",
+    "excerpt": "Padic Homework T1 <div class=\"cbox\" 1. 试证明, 若范数 满足对任意的整数 都有 , 则 一定是非阿的. (也就是说, 这个范数同构于某个 adic 范数.) </div 首先看起来这个范数同构于padic不对.比如 不满足() <div class=\"pbox\" $ x \\in \\mathbb{Q} p |x| p…",
     "path": "_posts/homework/sem2/Padic-Homework.md",
     "tags": [
       "math",
