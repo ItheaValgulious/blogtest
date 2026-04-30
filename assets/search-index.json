@@ -1,5 +1,16 @@
 [
   {
+    "excerpt": "Topo Homework Week 9 T1 <div class=\"cbox\" 8. (ER) 找到一个不是商映射的连续满射 . </div <div class=\"pbox\" $ S = S^1 \\times I, \\beta S \\sim x \\in \\text{Int}(S) x \\sim x; \\forall \\theta \\in [0, 2\\…",
+    "path": "_posts/homework/sem2/Topo-Homework---Week-9.md",
+    "tags": [
+      "topo",
+      "homework",
+      "math"
+    ],
+    "title": "Topo Homework - Week 9",
+    "urlPath": "/posts/_posts/homework/sem2/topo-homework-week-9-2026-04-30/"
+  },
+  {
     "excerpt": "Topo Homework Week 8 T1 <div class=\"cbox\" 11. (MRH) 用极坐标 表示平面上的点 , 其中 表示点 到原点的距离, 表示从原点出发过点 的射线与 轴正向的夹角. 设 $ W \\mathbb{R}^2 W W S^1 (1,\\theta) A \\{ (\\dfrac{\\theta+2\\pi n}{\\theta+2…",
     "path": "_posts/homework/sem2/Topo-Homework---Week-8.md",
     "tags": [
