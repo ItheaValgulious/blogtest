@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Robomaster Log</title>
+    <meta name="description" content="Robomaster Log 何意味 预测器 tf树跨进程通信显然有延迟,消息轮询也有延迟.而运动过程中来自不同来源的机体姿态数据会让最终的机体姿态出现偏移. 神经网络 当尝试使用伪造数据训练模型时,如果对一个识别模型来说,识别数据是否是伪造的难度低于其任务的难度,且可以通过伪造的部分得到答案,那么模型显然可以把自己训练成识别伪造而不是完成本来的任务.可能…">
+    <link rel="stylesheet" href="/theme/atlas/chrome.light.css">
+    <link rel="stylesheet" href="/theme/atlas/prose.light.css">
+    <link rel="stylesheet" href="/assets/commutative.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css">
+    
+  </head>
+  <body class="">
+    <div class="paper-background">
+      <div class="paper-background__grain"></div>
+      <div class="paper-background__geometry"></div>
+    </div>
+    <div class="site-shell">
+      <header class="site-header ">
+        <a class="site-brand" href="/">
+          <span class="site-brand__mark">ED</span>
+          <span class="site-brand__text">Eternal Dreamer</span>
+        </a>
+        <p class="site-intro">Will you save us?</p>
+        <nav class="site-nav">
+          <a href="/">Home</a><a href="/tags/">Tags</a><a href="/tree/">Tree</a><a href="/search/">Search</a>
+        </nav>
+      </header>
+      <main class="page-shell">
+        <section class="article-hero">
+          <span class="hero-note">2026-03-06</span>
+          <h1>Robomaster Log</h1>
+          <div class="entry-meta article-hero__meta"><span>2026-03-06</span><span>_posts/code</span></div>
+          <div class="tag-row"><a class="tag-chip" href="/tags/program/">program</a><a class="tag-chip" href="/tags/robomaster/">robomaster</a></div>
+        </section>
+        <section class="article-layout">
+          <article class="article-panel">
+            <div class="prose"><h1 id="robomaster-log">Robomaster Log</h1>
+<h2 id="何意味">何意味</h2>
+<h3 id="预测器">预测器</h3>
+<ul>
+<li>tf树跨进程通信显然有延迟,消息轮询也有延迟.而运动过程中来自不同来源的机体姿态数据会让最终的机体姿态出现偏移.</li>
+</ul>
+<h3 id="神经网络">神经网络</h3>
+<p>当尝试使用伪造数据训练模型时,如果对一个识别模型来说,识别数据是否是伪造的难度低于其任务的难度,且可以通过伪造的部分得到答案,那么模型显然可以把自己训练成识别伪造而不是完成本来的任务.可能的解决方案比如GAN类的架构.但这太麻烦了被放弃.</p>
+<p>用微信传输会改变ONNX文件内容</p>
+<p>openvino编译onnx文件时,是否存在topk层会影响中间层被编译后的类型,topk层导致推理速度变慢</p>
+<h2 id="logs">logs</h2>
+<h3 id="20260307">20260307</h3>
+<p>写了个模拟模块,尝试在电脑模拟上复现飞镖坐标计算错误问题</p>
+<h3 id="20250311">20250311</h3>
+<p>飞镖坐标计算错误已经修了,应该真的是延迟导致的啊.解决方案是直接换成了自己写的丐版tf树.</p>
+<p>虽然我想吐槽ai在这个问题上使用bfs在图上做而不是在树上做.</p></div>
+            <div class="pager-row">
+              <a href="/posts/_posts/code/tips-2026-03-06/"><span>Older</span><strong>Tips</strong></a>
+              <a href="/posts/_posts/math/maybe-higher-linear-algebra-2026-03-09/"><span>Newer</span><strong>Maybe Higher Linear Algebra</strong></a>
+            </div>
+          </article>
+          <aside class="side-panel">
+            <h3>On This Page</h3>
+            <ul><li><a href="#robomaster-log">Robomaster Log</a></li><li><a href="#何意味">何意味</a></li><li><a href="#预测器">预测器</a></li><li><a href="#神经网络">神经网络</a></li><li><a href="#logs">logs</a></li><li><a href="#20260307">20260307</a></li><li><a href="#20250311">20250311</a></li></ul>
+          </aside>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <div class="site-footer__identity">
+          <strong class="site-footer__brand">Eternal Dreamer</strong>
+          <p>Will you save us?</p>
+        </div>
+      </footer>
+    </div>
+    
+  </body>
+</html>

@@ -1,5 +1,14 @@
 [
   {
+    "excerpt": "Hi, World! Introduction 上大学了 从CS转向Math 长期更新数学/大学课程/生活相关内容 OneNote Sharing linear algebra(doneright,homework):https://1drv.ms/o/c/2641d3be39789d74/EtVyU7N6jrtNkENACOSdqv0Bo2fUfdZQJ…",
+    "path": "_posts/others/250902-hello-world.md",
+    "tags": [
+      "others"
+    ],
+    "title": "Hello World",
+    "urlPath": "/posts/_posts/others/hello-world-2025-09-02/"
+  },
+  {
     "excerpt": "Topo Homework Week 9 T1 <div class=\"cbox\" 8. (ER) 找到一个不是商映射的连续满射 . </div <div class=\"pbox\" $ S = S^1 \\times I, \\beta S \\sim x \\in \\text{Int}(S) x \\sim x; \\forall \\theta \\in [0, 2\\…",
     "path": "_posts/homework/sem2/Topo-Homework---Week-9.md",
     "tags": [
@@ -22,7 +31,7 @@
     "urlPath": "/posts/_posts/homework/sem2/topo-homework-week-8-2026-04-24/"
   },
   {
-    "excerpt": "Padic Homework T1 <div class=\"cbox\" 1. 试证明, 若范数 满足对任意的整数 都有 , 则 一定是非阿的. (也就是说, 这个范数同构于某个 adic 范数.) </div 首先看起来这个范数同构于padic不对.比如 不满足() <div class=\"pbox\" $ x \\in \\mathbb{Q} p |x| p…",
+    "excerpt": "Padic Homework T1 <div class=\"cbox\" 1. 试证明, 若范数 满足对任意的整数 都有 , 则 一定是非阿的. (也就是说, 这个范数同构于某个 adic 范数.) </div 首先看起来这个范数同构于p adic不对.比如 不满足() <div class=\"pbox\" $ x \\in \\mathbb{Q} p |x| p…",
     "path": "_posts/homework/sem2/Padic-Homework.md",
     "tags": [
       "math",
@@ -56,13 +65,15 @@
     "urlPath": "/posts/_posts/homework/sem2/topo-homework-week-7-2026-04-16/"
   },
   {
-    "excerpt": "Hello World Introduction 上大学了 从CS转向Math 长期更新数学/大学课程/生活相关内容 OneNote Sharing linear algebra(doneright,homework):https://1drv.ms/o/c/2641d3be39789d74/EtVyU7N6jrtNkENACOSdqv0Bo2fUfdZQ…",
-    "path": "_posts/others/250902-hello-world.md",
+    "excerpt": "Math Analysis Homework Sem 2 Week 6 T1 <div class=\"cbox\" 2. (2) </div <div class='pbox' 存在 令 ,显然 时 ,则原式极限为: $ \\lim {(x,y)\\to(0,0)} xy \\frac{x^2 y^2}{x^2+y^2} 0 \\lim {\\substack{x \\…",
+    "path": "_posts/homework/sem2/260416-math-analysis-2-6-homework.md",
     "tags": [
-      "others"
+      "math",
+      "math-analysis",
+      "homework"
     ],
-    "title": "Hello World",
-    "urlPath": "/posts/_posts/others/hello-world-2026-04-16/"
+    "title": "Math Analysis Homework - Sem 2 Week 6",
+    "urlPath": "/posts/_posts/homework/sem2/math-analysis-homework-sem-2-week-6-2026-04-16/"
   },
   {
     "excerpt": "Algebraic Topology Note 看的是 https://dec41.user.srcf.net/notes/. 记号 : . 所有的映射不声明默认是连续的. Homotopy <div class='dbox' 同伦 有两个映射 ,若存在 ,满足 ,则 , 是 的同伦.我会写 ,这样能给下面那个相对集合的同伦的集合腾地方. </div 可以…",
@@ -73,7 +84,51 @@
       "self-study"
     ],
     "title": "Algebraic Topology Note",
-    "urlPath": "/posts/_posts/math/algebraic-topology-note-2026-04-16/"
+    "urlPath": "/posts/_posts/math/algebraic-topology-note-2026-04-12/"
+  },
+  {
+    "excerpt": "Topo Homework Week 6 T1 <div class=\"cbox\" 7. (ERH) 设 为度量空间 的紧致子集. (1) 的直径定义为 , 证明存在 , 使得 ; (2) 设 , 证明存在 , 使得 ; (3) 设 是 的闭集, . 证明 . </div <div class=\"pbox\" (1): 设 .因为 是紧集, 固定 后是关于…",
+    "path": "_posts/homework/sem2/260410-topo-homework-6.md",
+    "tags": [
+      "math",
+      "topo",
+      "homework"
+    ],
+    "title": "Topo Homework - Week 6",
+    "urlPath": "/posts/_posts/homework/sem2/topo-homework-week-6-2026-04-10/"
+  },
+  {
+    "excerpt": "Topo Homework Week 5 T1 <div class=\"cbox\" 15. (ERH) 证明 空间 是豪斯多夫空间当且仅当 中任意序列至多有一个极限点. </div <div class='pbox' :因为 ,故假设序列 ,则 , 是开集.但 , ,矛盾.故任意 至多有一个极限点. :由于 ,故 , 是 的一组嵌套的( )邻域基, 是 的…",
+    "path": "_posts/homework/sem2/260403-topo-homework-5.md",
+    "tags": [
+      "topo",
+      "math",
+      "homework"
+    ],
+    "title": "Topo Homework - Week 5",
+    "urlPath": "/posts/_posts/homework/sem2/topo-homework-week-5-2026-04-03/"
+  },
+  {
+    "excerpt": "Math Analysis Homework Sem 2 Week 5 T1 <div class=\"cbox\" 2. 设 为 的聚点, 证明存在 中的点列 ( ), 使得 . </div <div class='pbox' 是 的聚点,即对 的任意开球邻域 , . 则取 ,取 ,则 . </div T2 <div class=\"cbox\" 3. 对于下列…",
+    "path": "_posts/homework/sem2/260402-math-analysis-2-5-homework.md",
+    "tags": [
+      "math-analysis",
+      "math",
+      "homework"
+    ],
+    "title": "Math Analysis Homework - Sem 2 Week 5",
+    "urlPath": "/posts/_posts/homework/sem2/math-analysis-homework-sem-2-week-5-2026-04-02/"
+  },
+  {
+    "excerpt": "Topo Homework Week 4 T1 <div class=\"cbox\" 12. (ERH) 证明下面的平面区域是同胚的: 1. 整个 平面; 2. 开象限 ; 3. 开角 ; 4. 平面去掉一条射线 , 其中 . </div <div class=\"pbox\" ,则 ,故 . ,则 ,且 ,故 . $ f 3,f 3^{ 1} f 3(C)=D…",
+    "path": "_posts/homework/sem2/260328-topo-homework-4.md",
+    "tags": [
+      "topo",
+      "math",
+      "homework"
+    ],
+    "title": "Topo Homework - Week 4",
+    "urlPath": "/posts/_posts/homework/sem2/topo-homework-week-4-2026-03-28/"
   },
   {
     "excerpt": "Divergence Theorem in Physics 很早就知道数学中这个散度定理和物理电磁/引力的高斯公式应该是一回事的,所以考虑一下是怎么回事. 高斯公式的引力形式 <div class='cbox' 高斯公式的引力形式: $ V f:R^3\\to R^3 Mf M Mf(\\vec r)=\\dfrac{GM}{|r|^3}\\vec r f x(r…",
@@ -84,7 +139,18 @@
       "whims"
     ],
     "title": "Divergence Theorem in Physics",
-    "urlPath": "/posts/_posts/math/divergence-theorem-in-physics-2026-04-16/"
+    "urlPath": "/posts/_posts/math/divergence-theorem-in-physics-2026-03-27/"
+  },
+  {
+    "excerpt": "Math Analysis Homework Sem 2 Week 4 T1 <div class=\"cbox\" 1. 将下列函数在指定点展开成泰勒级数： (3) ; </div <div class=\"pbox\" $ |x 1|<1 x=2,0 0 \\ln (1 + x + x^2 + x^3), x = 0 \\ln ( 1,1) ( 1,1) f(x)…",
+    "path": "_posts/homework/sem2/260326-math-analysis-2-4-homework.md",
+    "tags": [
+      "math-analysis",
+      "math",
+      "homework"
+    ],
+    "title": "Math Analysis Homework - Sem 2 Week 4",
+    "urlPath": "/posts/_posts/homework/sem2/math-analysis-homework-sem-2-week-4-2026-03-26/"
   },
   {
     "excerpt": "Your Classmates' Chaos Power Period 3 Means Period K 首先是一些准备工作: <div class='dbox' $ I=[a,b] f(x) x f(x) f(x) I 1=[f(a),f(b)] c c=\\sup \\{x|f(x)=f(a)\\} f(c)=f(a) d=\\inf \\{x|f(x)=f(b…",
@@ -96,7 +162,18 @@
       "math-analysis"
     ],
     "title": "Your Classmates' Chaos Power",
-    "urlPath": "/posts/_posts/math/your-classmates-chaos-power-2026-04-16/"
+    "urlPath": "/posts/_posts/math/your-classmates-chaos-power-2026-03-26/"
+  },
+  {
+    "excerpt": "Topo Homework Week 3 T1 <div class=\"cbox\" T1. (ER) 确定下面每种情况中的 和 : (1) 在下极限拓扑空间 中, ; (2) ; (3) 在欧氏直线 上, ; (4) 在下极限拓扑空间 中, ; (5) 在欧氏平面 上, . </div <div class=\"pbox\" (1): (2): (3): (4…",
+    "path": "_posts/homework/sem2/260321-topo-homework-3.md",
+    "tags": [
+      "topo",
+      "homework",
+      "math"
+    ],
+    "title": "Topo Homework - Week 3",
+    "urlPath": "/posts/_posts/homework/sem2/topo-homework-week-3-2026-03-21/"
   },
   {
     "excerpt": "Bigger Dual Vector Space 好我们都知道对偶空间是什么了,由于有限维向量空间一定同构于自己的对偶空间,且同构于 后还可以定义内积后用Reisz表示定理,所以此时这个对偶空间看起来很废物. 但是无限维的时候对偶空间是有意义的,实际上我们发现无限维向量空间行对偶空间和原空间一定不相等,事实上,一定比原空间大. 这里的大是维数上的,但因为无…",
@@ -107,7 +184,40 @@
       "whims"
     ],
     "title": "Bigger Dual Vector Space",
-    "urlPath": "/posts/_posts/math/bigger-dual-vector-space-2026-04-16/"
+    "urlPath": "/posts/_posts/math/bigger-dual-vector-space-2026-03-18/"
+  },
+  {
+    "excerpt": "Math Analysis Homework Sem 2 Week 3 T1 <div class=\"cbox\" 1. 求下列幂级数的收敛域: (2) ; </div <div class=\"pbox\" $ \\sum {n=1}^\\infty \\left(\\frac{a^n}{n} + \\frac{b^n}{n^2}\\right) x^n, a 0, b…",
+    "path": "_posts/homework/sem2/260317-math-analysis-2-3-homework.md",
+    "tags": [
+      "math-analysis",
+      "homework",
+      "math"
+    ],
+    "title": "Math Analysis Homework - Sem 2 Week 3",
+    "urlPath": "/posts/_posts/homework/sem2/math-analysis-homework-sem-2-week-3-2026-03-17/"
+  },
+  {
+    "excerpt": "Topo Homework Week 2 T1 <div class=\"cbox\" 1. (ER) 尝试给出 的两个非豪斯多夫的拓扑、一个豪斯多夫的拓扑, 并证明它们对应的拓扑空间不同胚. </div <div class=\"pbox\" Not T2: T2: 离散拓扑 T2是拓扑性质:若存在连续双射 是同胚,则 中的开集/闭集与 中的一一对应,所以 均为…",
+    "path": "_posts/homework/sem2/260313-topo-homework-2.md",
+    "tags": [
+      "topo",
+      "math",
+      "homework"
+    ],
+    "title": "Topo Homework - Week 2",
+    "urlPath": "/posts/_posts/homework/sem2/topo-homework-week-2-2026-03-13/"
+  },
+  {
+    "excerpt": "Math Analysis Homework Sem 2 Week 2 Class 1 T1 <div class=\"cbox\" 2. 设级数 收敛, 证明 $ u n=\\dfrac{a n}{n^x} a n \\dfrac1{n^x} \\sum {n=1}^{\\infty} ( 1)^n x^n (1 x) [0, 1] \\forall x,\\sum {…",
+    "path": "_posts/homework/sem2/260309-math-analysis-2-2-homework.md",
+    "tags": [
+      "math",
+      "math-analysis",
+      "homework"
+    ],
+    "title": "Math Analysis Homework - Sem 2 Week 2",
+    "urlPath": "/posts/_posts/homework/sem2/math-analysis-homework-sem-2-week-2-2026-03-09/"
   },
   {
     "excerpt": "Maybe Higher Linear Algebra 20260304 <div class='cbox' 如果 中的 线性相关,则存在 空间中的 使得 的线性映射不存在 </div <div class='pbox' 不妨设 . 只要让 全是 , 就完事了. </div 20260309 <div class='cbox' 任意线性空集 有一组Hame…",
@@ -118,18 +228,26 @@
       "note"
     ],
     "title": "Maybe Higher Linear Algebra",
-    "urlPath": "/posts/_posts/math/maybe-higher-linear-algebra-2026-04-16/"
+    "urlPath": "/posts/_posts/math/maybe-higher-linear-algebra-2026-03-09/"
   },
   {
-    "excerpt": "Topo Basic Note 基本概念 拓扑与拓扑基与邻域 拓扑就是在一个集合上定义哪些是开集,同时满足对有限交,无限并的封闭性. 于是闭集公里说的是你也可以定义哪些是闭集满足对有限并和无限交的封闭性 邻域有的定义为包含一个点的开集,有的定义为包含一个点的开集的超集,就是是否允许非开集邻域. <div class='cbox' 开集等价条件 一个集合是开…",
-    "path": "_posts/math/260306-topo-classnote.md",
+    "excerpt": "Robomaster Log 何意味 预测器 tf树跨进程通信显然有延迟,消息轮询也有延迟.而运动过程中来自不同来源的机体姿态数据会让最终的机体姿态出现偏移. 神经网络 当尝试使用伪造数据训练模型时,如果对一个识别模型来说,识别数据是否是伪造的难度低于其任务的难度,且可以通过伪造的部分得到答案,那么模型显然可以把自己训练成识别伪造而不是完成本来的任务.可能…",
+    "path": "_posts/code/260306-mysterys-in-robomaster.md",
     "tags": [
-      "math",
-      "topo",
-      "note"
+      "program",
+      "robomaster"
     ],
-    "title": "Topo Basic Note",
-    "urlPath": "/posts/_posts/math/topo-basic-note-2026-04-16/"
+    "title": "Robomaster Log",
+    "urlPath": "/posts/_posts/code/robomaster-log-2026-03-06/"
+  },
+  {
+    "excerpt": "随便记录些小技巧 How to use clash in linux 配置tun模式: 不sudo的话需要给权限: sudo setcap cap net admin+ep /usr/local/bin/clash How to use clash in windows for UWP apps 管理员权限在powershell运行:",
+    "path": "_posts/code/260306-tricks.md",
+    "tags": [
+      "tips"
+    ],
+    "title": "Tips",
+    "urlPath": "/posts/_posts/code/tips-2026-03-06/"
   },
   {
     "excerpt": "Discrete Math Note Mysteries 空图指的是荒漠 不是图 单点不是路径(path) \"邻接矩阵不能表示重边\" 当说一条路径的时候,简单=边不同,初级=边不同+点不同(???)由于这条过于神秘,所以后面写笔记的时候常常不管这件事(当我说简单的时候指的边也不同). I'm pig 平均编码长度是按频率加权的. 20260306 <div…",
@@ -140,18 +258,40 @@
       "math"
     ],
     "title": "Discrete Math Note",
-    "urlPath": "/posts/_posts/math/discrete-math-note-2026-04-16/"
+    "urlPath": "/posts/_posts/math/discrete-math-note-2026-03-06/"
   },
   {
-    "excerpt": "Math Analysis Huashi Xia 只挑了几点 函数项级数 不能乱交换 <div class='cbox' 构造:求极限不保证连续性 </div <div class='pbox' </div <div class='cbox' 求导和求极限不交换 </div <div class='pbox' 第一种是我们直接让导函数发散: $ d(x)…",
-    "path": "_posts/math/260302-math-analysis-huashixia-readnote.md",
+    "excerpt": "Topo Basic Note 基本概念 拓扑与拓扑基与邻域 拓扑就是在一个集合上定义哪些是开集,同时满足对有限交,无限并的封闭性. 于是闭集公里说的是你也可以定义哪些是闭集满足对有限并和无限交的封闭性 邻域有的定义为包含一个点的开集,有的定义为包含一个点的开集的超集,就是是否允许非开集邻域. <div class='cbox' 开集等价条件 一个集合是开…",
+    "path": "_posts/math/260306-topo-classnote.md",
     "tags": [
-      "math-analysis",
       "math",
-      "self-study"
+      "topo",
+      "note"
     ],
-    "title": "Math Analysis Huashi Xia",
-    "urlPath": "/posts/_posts/math/math-analysis-huashi-xia-2026-04-16/"
+    "title": "Topo Basic Note",
+    "urlPath": "/posts/_posts/math/topo-basic-note-2026-03-06/"
+  },
+  {
+    "excerpt": "Topo Homework Week 1 T1 <div class=\"cbox\" 5. (ER) 在三点集 上, 平凡拓扑有两个开集, 离散拓扑有八个开集. 对于 中的每一个数, 找出 上由 个开集组成的拓扑, 或证明这样的拓扑不存在. </div <div class=\"pbox\" 3: 4: 5: 6: 对于 ,容易验证删掉任何一个开集都不构成拓扑.…",
+    "path": "_posts/homework/sem2/260305-topo-homework-1.md",
+    "tags": [
+      "topo",
+      "math",
+      "homework"
+    ],
+    "title": "Topo Homework - Week 1",
+    "urlPath": "/posts/_posts/homework/sem2/topo-homework-week-1-2026-03-05/"
+  },
+  {
+    "excerpt": "Math Analysis Homework Sem 2 Week 1 Class 1 T1 <div class=\"cbox\" 2. 讨论下列函数序列在指定区间上的一致收敛性: (2) , (i) , (ii) ; </div <div class='pbox' $ f n(x) = \\frac{x^n}{1+x^n} x \\in (0, 1) x \\i…",
+    "path": "_posts/homework/sem2/260302-math-analysis-2-1-homework.md",
+    "tags": [
+      "math",
+      "homework",
+      "math-analysis"
+    ],
+    "title": "Math Analysis Homework - Sem 2 Week 1",
+    "urlPath": "/posts/_posts/homework/sem2/math-analysis-homework-sem-2-week-1-2026-03-02/"
   },
   {
     "excerpt": "Math Analysis (Class Note 3) 20260302 讲了一些函数项级数和一致收敛 <div class='cbox' 证明 上 一致收敛. </div <div class='pbox' 极限是 法1:Dini引理,单调性+连续秒了. 法2: 老师写的是你先求导,发现: $ 0=((1+\\dfrac xn)^n e^x)'=(1+\\…",
@@ -162,7 +302,18 @@
       "math"
     ],
     "title": "Math Analysis (Class Note 3)",
-    "urlPath": "/posts/_posts/math/math-analysis-class-note-3-2026-04-16/"
+    "urlPath": "/posts/_posts/math/math-analysis-class-note-3-2026-03-02/"
+  },
+  {
+    "excerpt": "Math Analysis Huashi Xia 只挑了几点 函数项级数 不能乱交换 <div class='cbox' 构造:求极限不保证连续性 </div <div class='pbox' </div <div class='cbox' 求导和求极限不交换 </div <div class='pbox' 第一种是我们直接让导函数发散: $ d(x)…",
+    "path": "_posts/math/260302-math-analysis-huashixia-readnote.md",
+    "tags": [
+      "math-analysis",
+      "math",
+      "self-study"
+    ],
+    "title": "Math Analysis Huashi Xia",
+    "urlPath": "/posts/_posts/math/math-analysis-huashi-xia-2026-03-02/"
   },
   {
     "excerpt": "I am a pig <div class='cbox' $ f(n)=r n,f'(n)=r {n+1} r {n}= a n f n 0 a n r n f(n)=a n,f'(n)=a {n+1} a n,f''(n)=f'(n+1) f'(n) f f f \\int \\dfrac{f'}{f}=\\ln f x n=\\ln(r {n+1}) \\ln(…",
@@ -172,7 +323,50 @@
       "whims"
     ],
     "title": "I am a pig",
-    "urlPath": "/posts/_posts/math/i-am-a-pig-2026-04-16/"
+    "urlPath": "/posts/_posts/math/i-am-a-pig-2026-01-06/"
+  },
+  {
+    "excerpt": "Math Analysis Homework Week 14 Class 1 T1 <div class=\"cbox\" 2. 讨论下列无穷乘积的敛散性: (2) </div <div class=\"pbox\" 敛散性等价于 $ \\prod {n=2}^{\\infty} \\left(\\frac{n^2 1}{n^2 + 1}\\right)^p \\ (p \\i…",
+    "path": "_posts/homework/sem1/251228-math-analysis-week14-homework.md",
+    "tags": [
+      "math",
+      "math-analysis",
+      "homework"
+    ],
+    "title": "Math Analysis Homework - Week 14",
+    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-14-2025-12-28/"
+  },
+  {
+    "excerpt": "Math Analysis Homework Week 13 Class 1 T1 <div class=\"cbox\" 1. 判断下列级数的敛散性, 绝对收敛还是条件收敛? (2) ; </div <div class=\"pbox\" 递减,莱布尼茨判别法知收敛 $ \\sum {n=1}^{\\infty} \\sin(\\pi \\sqrt{n^2+1}) \\su…",
+    "path": "_posts/homework/sem1/251217-math-analysis-week13-homework.md",
+    "tags": [
+      "math-analysis",
+      "homework",
+      "math"
+    ],
+    "title": "Math Analysis Homework - Week 13",
+    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-13-2025-12-17/"
+  },
+  {
+    "excerpt": "How to use GPU in WSL2 Write this in And test by to see if there is is or And this may only work for vulkan rather than opengl. Vegetable WSL!",
+    "path": "_posts/code/251209-how-to-use-gpu-in-wsl.md",
+    "tags": [
+      "programming",
+      "tips"
+    ],
+    "title": "How to use GPU in WSL2",
+    "urlPath": "/posts/_posts/code/how-to-use-gpu-in-wsl2-2025-12-09/"
+  },
+  {
+    "excerpt": "Math Analysis Homework Week 12 Class 1 T1 <div class=\"cbox\" $ p\\in (0,4) p\\in ( \\infty,0]\\cup [4,+\\infty) f(x) [a, b] \\lim {x\\to+\\infty}f(x)=A, \\lim {x\\to \\infty}f(x)=B a 0 \\int {…",
+    "path": "_posts/homework/sem1/251208-math-analysis-week12-homework.md",
+    "tags": [
+      "math-analysis",
+      "math",
+      "homework"
+    ],
+    "title": "Math Analysis Homework - Week 12",
+    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-12-2025-12-08/"
   },
   {
     "excerpt": "Real And Complex Analysis Chapter 1 Abstract Integral Basic Definitions 需要注意的是 意思是 , <div class='dbox' 上的一个拓扑就是 的幂集族的子集( 的子集族) 满足 中元素的任意有限交和无限并仍属于 定义了 的 是拓扑空间, 中元素为开集 </div <div c…",
@@ -185,10 +379,10 @@
       "self-study"
     ],
     "title": "Real And Complex Analysis",
-    "urlPath": "/posts/_posts/math/real-and-complex-analysis-2026-04-16/"
+    "urlPath": "/posts/_posts/math/real-and-complex-analysis-2025-12-08/"
   },
   {
-    "excerpt": "Math Analysis (Class Note) 2 Class 24 定积分的应用 <div class='cbox' 参数方程的面积 围成的面积 满足 $ C^1 \\sqrt{(x a)(b x)} \\dfrac{dx}{y}=d\\theta 2\\pi \\dfrac{\\vert \\sin x \\vert }{x} X x X \\Rightarrow…",
+    "excerpt": "Math Analysis (Class Note) 2 Class 24 定积分的应用 <div class='cbox' 参数方程的面积 围成的面积 满足 $ C^1 \\sqrt{(x a)(b x)} \\dfrac{dx}{y}=d\\theta 2\\pi \\dfrac{\\vert \\sin x \\vert }{x} X x X \\implies \\d…",
     "path": "_posts/math/251205-math-analysis-classnote2.md",
     "tags": [
       "math",
@@ -196,7 +390,18 @@
       "math-analysis"
     ],
     "title": "Math Analysis (Class Note) 2",
-    "urlPath": "/posts/_posts/math/math-analysis-class-note-2-2026-04-16/"
+    "urlPath": "/posts/_posts/math/math-analysis-class-note-2-2025-12-05/"
+  },
+  {
+    "excerpt": "Math Analysis Homework Week 11 Class 1 T1 计算曲线围成的面积 <div class='cbox' $ P(1,0) y=\\sqrt{x 2} x x y y=\\dfrac{1}{2} x \\dfrac{1}{2} \\iff x=2y+1 r=a(1+\\cos\\theta) \\left(0 \\leqslant \\th…",
+    "path": "_posts/homework/sem1/251201-math-analysis-week11-homework.md",
+    "tags": [
+      "math",
+      "math-analysis",
+      "homework"
+    ],
+    "title": "Math Analysis Homework - Week 11",
+    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-11-2025-12-01/"
   },
   {
     "excerpt": "我们生活在虚拟世界的证据:你看到了一个概念,然后他就会天天冒出来,而以前它并不会天天冒出来. Def 上半连续说的是向上增长的时候是连续的,函数值不能突然上升但可以突然下降. 于是一个定义是 处上半连续定义为 ,存在 的邻域 使得 . 而同样我们可以理解 的原像是开集, 的原像是闭集.意思是你在一个小于 的地方,你往旁边走一点点还是小于 的(开),你在一个…",
@@ -206,7 +411,18 @@
       "whims"
     ],
     "title": "Tell Semicontinuous",
-    "urlPath": "/posts/_posts/math/tell-semicontinuous-2026-04-16/"
+    "urlPath": "/posts/_posts/math/tell-semicontinuous-2025-11-28/"
+  },
+  {
+    "excerpt": "Math Analysis Homework Week 10 Class 1 T1 <div class='cbox' $ a<1 a=1 a\\ge 1 \\vert f(x) \\vert <\\sqrt 2+1 $ </div",
+    "path": "_posts/homework/sem1/251124-math-analysis-week10-homework.md",
+    "tags": [
+      "math",
+      "math-analysis",
+      "homework"
+    ],
+    "title": "Math Analysis Homework - Week 10",
+    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-10-2025-11-24/"
   },
   {
     "excerpt": "Cayley Hamilton 好了大家都知道内容说的是矩阵 特征多项式 有 如果 或者说,如果 满足 的多项式方程的根也属于 ,即我们可以搞特征值那一套. 证明方法会很多. 比如舒尔定理+因式分解,则 ,你可以排列这些因式使得 且 ,于是乘起来显然对任意向量是 . 比如直接考虑广义本征空间 上 是幂零的. 如果任意域 然后大家都知道你不能直接声称 带进去…",
@@ -217,7 +433,29 @@
       "whims"
     ],
     "title": "Cayley Hamilton",
-    "urlPath": "/posts/_posts/math/cayley-hamilton-2026-04-16/"
+    "urlPath": "/posts/_posts/math/cayley-hamilton-2025-11-24/"
+  },
+  {
+    "excerpt": "Math Analysis Homework Week 9 Class 1 T1 <div class='cbox' $ f(x 0)\\ne 0 f(x 0) 0 (x 0 \\delta,x 0+\\delta) \\forall x\\in (x 0 \\delta,x 0+\\delta),f(x) \\dfrac{f(x 0)}2 0 \\int x^kf(x)…",
+    "path": "_posts/homework/sem1/251123-math-analysis-week9-homework.md",
+    "tags": [
+      "math-analysis",
+      "homework",
+      "math"
+    ],
+    "title": "Math Analysis Homework - Week 9",
+    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-9-2025-11-23/"
+  },
+  {
+    "excerpt": "Math Analysis Homework Week 8 Class 1 T1 <div class='cbox' $ $ </div",
+    "path": "_posts/homework/sem1/251110-math-analysis-week8-homework.md",
+    "tags": [
+      "math",
+      "math-analysis",
+      "homework"
+    ],
+    "title": "Math Analysis Homework - Week 8",
+    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-8-2025-11-10/"
   },
   {
     "excerpt": "A Fun Problem about Function Limits <div class='cbox' $ \\epsilon x n \\lim {n \\to \\infty} x n=+\\infty f(x n) \\epsilon \\delta n,\\forall x\\in (x i \\delta i,x i+\\delta i) \\vert f(x) f…",
@@ -228,7 +466,18 @@
       "whims"
     ],
     "title": "A Fun Problem about Function Limits",
-    "urlPath": "/posts/_posts/math/a-fun-problem-about-function-limits-2026-04-16/"
+    "urlPath": "/posts/_posts/math/a-fun-problem-about-function-limits-2025-11-10/"
+  },
+  {
+    "excerpt": "Math Analysis Homework Week 7 Class 1 T1 <div class='cbox' $ a,b 0 4 5 o(x^5) $ </div",
+    "path": "_posts/homework/sem1/251103-math-analysis-week7-homework.md",
+    "tags": [
+      "math-analysis",
+      "math",
+      "homework"
+    ],
+    "title": "Math Analysis Homework - Week 7",
+    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-7-2025-11-03/"
   },
   {
     "excerpt": "Can you find a function such that right continuous at every point but not left continuous on a point $ q 1,q 2\\ldots 2^{ i} x \\epsilon \\forall \\delta,\\exists y\\in [x \\delta,x],\\ve…",
@@ -239,7 +488,40 @@
       "whims"
     ],
     "title": "Right Continuous Function",
-    "urlPath": "/posts/_posts/math/right-continuous-function-2026-04-16/"
+    "urlPath": "/posts/_posts/math/right-continuous-function-2025-11-03/"
+  },
+  {
+    "excerpt": "Math Analysis Homework Week 6 Class 1 T1 <div class='cbox' analysis the function's convexity and inflection point $ ab=0 a,b\\ne 0 a $ </div",
+    "path": "_posts/homework/sem1/251027-math-analysis-week6-homework.md",
+    "tags": [
+      "math-analysis",
+      "math",
+      "homework"
+    ],
+    "title": "Math Analysis Homework - Week 6",
+    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-6-2025-10-27/"
+  },
+  {
+    "excerpt": "Math Analysis Homework Week 5 Class 1 T1 <div class='cbox' $ f(b) f(a) \\vert k \\vert f'(x 1),f'(x 2) a=0 f(x) 0 (c,d) f(c)=0 f(x) 0,\\forall x\\in (c,d) g(x)=\\ln \\vert f(x) \\vert \\v…",
+    "path": "_posts/homework/sem1/251020-math-analysis-week5-homework.md",
+    "tags": [
+      "math-analysis",
+      "math",
+      "homework"
+    ],
+    "title": "Math Analysis Homework - Week 5",
+    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-5-2025-10-20/"
+  },
+  {
+    "excerpt": "Math Analysis Homework Week 4 Class 1 T1 <div class='cbox' $ $ </div",
+    "path": "_posts/homework/sem1/251013-math-analysis-week4-homework.md",
+    "tags": [
+      "math-analysis",
+      "homework",
+      "math"
+    ],
+    "title": "Math Analysis Homework - Week 4",
+    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-4-2025-10-13/"
   },
   {
     "excerpt": "Linear Algebra Done Right 记录大致讲了什么 Book Edition 3 向量空间 我们定义向量空间 <div class='dbox' 向量空间 向量空间定义在域 上,要求支持: 加法 中数的数乘 加法单位元(0元) 加法逆元 加法交换结合 数乘结合 加法对数乘分配 对加法和数乘封闭 </div 加粗部分用于判断子空间,根据 区…",
@@ -251,282 +533,7 @@
       "self-study"
     ],
     "title": "Linear Algebra Done Right",
-    "urlPath": "/posts/_posts/math/linear-algebra-done-right-2026-04-16/"
-  },
-  {
-    "excerpt": "Math analysis Class 1 Some Inequality and Def of limit Triangle Inequality <div class='cbox' $ x i=\\dfrac{1}{x i} 2 2 n X=\\sqrt[n]{\\prod i x i} N=N(\\epsilon) N \\epsilon (0,a),a 0…",
-    "path": "_posts/math/250915-math-analysis-classnote.md",
-    "tags": [
-      "math-analysis",
-      "note",
-      "math"
-    ],
-    "title": "Math Analysis(Class Note)",
-    "urlPath": "/posts/_posts/math/math-analysis-class-note-2026-04-16/"
-  },
-  {
-    "excerpt": "Linear algebra A fun question <div class='cbox' In n D space we can found at most vector such that: </div <div class='pbox' An example in 3 D space(the one on the book) The constr…",
-    "path": "_posts/math/250915-linear-algebra.md",
-    "tags": [
-      "math",
-      "linear-algebra",
-      "note"
-    ],
-    "title": "Linear Algebra",
-    "urlPath": "/posts/_posts/math/linear-algebra-2026-04-16/"
-  },
-  {
-    "excerpt": "Math Analysis Homework Sem 2 Week 6 T1 <div class=\"cbox\" 2. (2) </div <div class='pbox' 存在 令 ,显然 时 ,则原式极限为: $ \\lim {(x,y)\\to(0,0)} xy \\frac{x^2 y^2}{x^2+y^2} 0 \\lim {\\substack{x \\…",
-    "path": "_posts/homework/sem2/260416-math-analysis-2-6-homework.md",
-    "tags": [
-      "math",
-      "math-analysis",
-      "homework"
-    ],
-    "title": "Math Analysis Homework - Sem 2 Week 6",
-    "urlPath": "/posts/_posts/homework/sem2/math-analysis-homework-sem-2-week-6-2026-04-16/"
-  },
-  {
-    "excerpt": "Topo Homework Week 6 T1 <div class=\"cbox\" 7. (ERH) 设 为度量空间 的紧致子集. (1) 的直径定义为 , 证明存在 , 使得 ; (2) 设 , 证明存在 , 使得 ; (3) 设 是 的闭集, . 证明 . </div <div class=\"pbox\" (1): 设 .因为 是紧集, 固定 后是关于…",
-    "path": "_posts/homework/sem2/260410-topo-homework-6.md",
-    "tags": [
-      "math",
-      "topo",
-      "homework"
-    ],
-    "title": "Topo Homework - Week 6",
-    "urlPath": "/posts/_posts/homework/sem2/topo-homework-week-6-2026-04-16/"
-  },
-  {
-    "excerpt": "Topo Homework Week 5 T1 <div class=\"cbox\" 15. (ERH) 证明 空间 是豪斯多夫空间当且仅当 中任意序列至多有一个极限点. </div <div class='pbox' :因为 ,故假设序列 ,则 , 是开集.但 , ,矛盾.故任意 至多有一个极限点. :由于 ,故 , 是 的一组嵌套的( )邻域基, 是 的…",
-    "path": "_posts/homework/sem2/260403-topo-homework-5.md",
-    "tags": [
-      "topo",
-      "math",
-      "homework"
-    ],
-    "title": "Topo Homework - Week 5",
-    "urlPath": "/posts/_posts/homework/sem2/topo-homework-week-5-2026-04-16/"
-  },
-  {
-    "excerpt": "Math Analysis Homework Sem 2 Week 5 T1 <div class=\"cbox\" 2. 设 为 的聚点, 证明存在 中的点列 ( ), 使得 . </div <div class='pbox' 是 的聚点,即对 的任意开球邻域 , . 则取 ,取 ,则 . </div T2 <div class=\"cbox\" 3. 对于下列…",
-    "path": "_posts/homework/sem2/260402-math-analysis-2-5-homework.md",
-    "tags": [
-      "math-analysis",
-      "math",
-      "homework"
-    ],
-    "title": "Math Analysis Homework - Sem 2 Week 5",
-    "urlPath": "/posts/_posts/homework/sem2/math-analysis-homework-sem-2-week-5-2026-04-16/"
-  },
-  {
-    "excerpt": "Topo Homework Week 4 T1 <div class=\"cbox\" 12. (ERH) 证明下面的平面区域是同胚的: 1. 整个 平面; 2. 开象限 ; 3. 开角 ; 4. 平面去掉一条射线 , 其中 . </div <div class=\"pbox\" ,则 ,故 . ,则 ,且 ,故 . $ f 3,f 3^{ 1} f 3(C)=D…",
-    "path": "_posts/homework/sem2/260328-topo-homework-4.md",
-    "tags": [
-      "topo",
-      "math",
-      "homework"
-    ],
-    "title": "Topo Homework - Week 4",
-    "urlPath": "/posts/_posts/homework/sem2/topo-homework-week-4-2026-04-16/"
-  },
-  {
-    "excerpt": "Math Analysis Homework Sem 2 Week 4 T1 <div class=\"cbox\" 1. 将下列函数在指定点展开成泰勒级数： (3) ; </div <div class=\"pbox\" $ |x 1|<1 x=2,0 0 \\ln (1 + x + x^2 + x^3), x = 0 \\ln ( 1,1) ( 1,1) f(x)…",
-    "path": "_posts/homework/sem2/260326-math-analysis-2-4-homework.md",
-    "tags": [
-      "math-analysis",
-      "math",
-      "homework"
-    ],
-    "title": "Math Analysis Homework - Sem 2 Week 4",
-    "urlPath": "/posts/_posts/homework/sem2/math-analysis-homework-sem-2-week-4-2026-04-16/"
-  },
-  {
-    "excerpt": "Topo Homework Week 3 T1 <div class=\"cbox\" T1. (ER) 确定下面每种情况中的 和 : (1) 在下极限拓扑空间 中, ; (2) ; (3) 在欧氏直线 上, ; (4) 在下极限拓扑空间 中, ; (5) 在欧氏平面 上, . </div <div class=\"pbox\" (1): (2): (3): (4…",
-    "path": "_posts/homework/sem2/260321-topo-homework-3.md",
-    "tags": [
-      "topo",
-      "homework",
-      "math"
-    ],
-    "title": "Topo Homework - Week 3",
-    "urlPath": "/posts/_posts/homework/sem2/topo-homework-week-3-2026-04-16/"
-  },
-  {
-    "excerpt": "Math Analysis Homework Sem 2 Week 3 T1 <div class=\"cbox\" 1. 求下列幂级数的收敛域: (2) ; </div <div class=\"pbox\" $ \\sum {n=1}^\\infty \\left(\\frac{a^n}{n} + \\frac{b^n}{n^2}\\right) x^n, a 0, b…",
-    "path": "_posts/homework/sem2/260317-math-analysis-2-3-homework.md",
-    "tags": [
-      "math-analysis",
-      "homework",
-      "math"
-    ],
-    "title": "Math Analysis Homework - Sem 2 Week 3",
-    "urlPath": "/posts/_posts/homework/sem2/math-analysis-homework-sem-2-week-3-2026-04-16/"
-  },
-  {
-    "excerpt": "Topo Homework Week 2 T1 <div class=\"cbox\" 1. (ER) 尝试给出 的两个非豪斯多夫的拓扑、一个豪斯多夫的拓扑, 并证明它们对应的拓扑空间不同胚. </div <div class=\"pbox\" Not T2: T2: 离散拓扑 T2是拓扑性质:若存在连续双射 是同胚,则 中的开集/闭集与 中的一一对应,所以 均为…",
-    "path": "_posts/homework/sem2/260313-topo-homework-2.md",
-    "tags": [
-      "topo",
-      "math",
-      "homework"
-    ],
-    "title": "Topo Homework - Week 2",
-    "urlPath": "/posts/_posts/homework/sem2/topo-homework-week-2-2026-04-16/"
-  },
-  {
-    "excerpt": "Math Analysis Homework Sem 2 Week 2 Class 1 T1 <div class=\"cbox\" 2. 设级数 收敛, 证明 $ u n=\\dfrac{a n}{n^x} a n \\dfrac1{n^x} \\sum {n=1}^{\\infty} ( 1)^n x^n (1 x) [0, 1] \\forall x,\\sum {…",
-    "path": "_posts/homework/sem2/260309-math-analysis-2-2-homework.md",
-    "tags": [
-      "math",
-      "math-analysis",
-      "homework"
-    ],
-    "title": "Math Analysis Homework - Sem 2 Week 2",
-    "urlPath": "/posts/_posts/homework/sem2/math-analysis-homework-sem-2-week-2-2026-04-16/"
-  },
-  {
-    "excerpt": "Topo Homework Week 1 T1 <div class=\"cbox\" 5. (ER) 在三点集 上, 平凡拓扑有两个开集, 离散拓扑有八个开集. 对于 中的每一个数, 找出 上由 个开集组成的拓扑, 或证明这样的拓扑不存在. </div <div class=\"pbox\" 3: 4: 5: 6: 对于 ,容易验证删掉任何一个开集都不构成拓扑.…",
-    "path": "_posts/homework/sem2/260305-topo-homework-1.md",
-    "tags": [
-      "topo",
-      "math",
-      "homework"
-    ],
-    "title": "Topo Homework - Week 1",
-    "urlPath": "/posts/_posts/homework/sem2/topo-homework-week-1-2026-04-16/"
-  },
-  {
-    "excerpt": "Math Analysis Homework Sem 2 Week 1 Class 1 T1 <div class=\"cbox\" 2. 讨论下列函数序列在指定区间上的一致收敛性: (2) , (i) , (ii) ; </div <div class='pbox' $ f n(x) = \\frac{x^n}{1+x^n} x \\in (0, 1) x \\i…",
-    "path": "_posts/homework/sem2/260302-math-analysis-2-1-homework.md",
-    "tags": [
-      "math",
-      "homework",
-      "math-analysis"
-    ],
-    "title": "Math Analysis Homework - Sem 2 Week 1",
-    "urlPath": "/posts/_posts/homework/sem2/math-analysis-homework-sem-2-week-1-2026-04-16/"
-  },
-  {
-    "excerpt": "Math Analysis Homework Week 14 Class 1 T1 <div class=\"cbox\" 2. 讨论下列无穷乘积的敛散性: (2) </div <div class=\"pbox\" 敛散性等价于 $ \\prod {n=2}^{\\infty} \\left(\\frac{n^2 1}{n^2 + 1}\\right)^p \\ (p \\i…",
-    "path": "_posts/homework/sem1/251228-math-analysis-week14-homework.md",
-    "tags": [
-      "math",
-      "math-analysis",
-      "homework"
-    ],
-    "title": "Math Analysis Homework - Week 14",
-    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-14-2026-04-16/"
-  },
-  {
-    "excerpt": "Math Analysis Homework Week 13 Class 1 T1 <div class=\"cbox\" 1. 判断下列级数的敛散性, 绝对收敛还是条件收敛? (2) ; </div <div class=\"pbox\" 递减,莱布尼茨判别法知收敛 $ \\sum {n=1}^{\\infty} \\sin(\\pi \\sqrt{n^2+1}) \\su…",
-    "path": "_posts/homework/sem1/251217-math-analysis-week13-homework.md",
-    "tags": [
-      "math-analysis",
-      "homework",
-      "math"
-    ],
-    "title": "Math Analysis Homework - Week 13",
-    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-13-2026-04-16/"
-  },
-  {
-    "excerpt": "Math Analysis Homework Week 12 Class 1 T1 <div class=\"cbox\" $ p\\in (0,4) p\\in ( \\infty,0]\\cup [4,+\\infty) f(x) [a, b] \\lim {x\\to+\\infty}f(x)=A, \\lim {x\\to \\infty}f(x)=B a 0 \\int {…",
-    "path": "_posts/homework/sem1/251208-math-analysis-week12-homework.md",
-    "tags": [
-      "math-analysis",
-      "math",
-      "homework"
-    ],
-    "title": "Math Analysis Homework - Week 12",
-    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-12-2026-04-16/"
-  },
-  {
-    "excerpt": "Math Analysis Homework Week 11 Class 1 T1 计算曲线围成的面积 <div class='cbox' $ P(1,0) y=\\sqrt{x 2} x x y y=\\dfrac{1}{2} x \\dfrac{1}{2} \\Leftrightarrow x=2y+1 r=a(1+\\cos\\theta) \\left(0 \\l…",
-    "path": "_posts/homework/sem1/251201-math-analysis-week11-homework.md",
-    "tags": [
-      "math",
-      "math-analysis",
-      "homework"
-    ],
-    "title": "Math Analysis Homework - Week 11",
-    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-11-2026-04-16/"
-  },
-  {
-    "excerpt": "Math Analysis Homework Week 10 Class 1 T1 <div class='cbox' $ a<1 a=1 a\\ge 1 \\vert f(x) \\vert <\\sqrt 2+1 $ </div",
-    "path": "_posts/homework/sem1/251124-math-analysis-week10-homework.md",
-    "tags": [
-      "math",
-      "math-analysis",
-      "homework"
-    ],
-    "title": "Math Analysis Homework - Week 10",
-    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-10-2026-04-16/"
-  },
-  {
-    "excerpt": "Math Analysis Homework Week 9 Class 1 T1 <div class='cbox' $ f(x 0)\\ne 0 f(x 0) 0 (x 0 \\delta,x 0+\\delta) \\forall x\\in (x 0 \\delta,x 0+\\delta),f(x) \\dfrac{f(x 0)}2 0 \\int x^kf(x)…",
-    "path": "_posts/homework/sem1/251123-math-analysis-week9-homework.md",
-    "tags": [
-      "math-analysis",
-      "homework",
-      "math"
-    ],
-    "title": "Math Analysis Homework - Week 9",
-    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-9-2026-04-16/"
-  },
-  {
-    "excerpt": "Math Analysis Homework Week 8 Class 1 T1 <div class='cbox' $ $ </div",
-    "path": "_posts/homework/sem1/251110-math-analysis-week8-homework.md",
-    "tags": [
-      "math",
-      "math-analysis",
-      "homework"
-    ],
-    "title": "Math Analysis Homework - Week 8",
-    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-8-2026-04-16/"
-  },
-  {
-    "excerpt": "Math Analysis Homework Week 7 Class 1 T1 <div class='cbox' $ a,b 0 4 5 o(x^5) $ </div",
-    "path": "_posts/homework/sem1/251103-math-analysis-week7-homework.md",
-    "tags": [
-      "math-analysis",
-      "math",
-      "homework"
-    ],
-    "title": "Math Analysis Homework - Week 7",
-    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-7-2026-04-16/"
-  },
-  {
-    "excerpt": "Math Analysis Homework Week 6 Class 1 T1 <div class='cbox' analysis the function's convexity and inflection point $ ab=0 a,b\\ne 0 a $ </div",
-    "path": "_posts/homework/sem1/251027-math-analysis-week6-homework.md",
-    "tags": [
-      "math-analysis",
-      "math",
-      "homework"
-    ],
-    "title": "Math Analysis Homework - Week 6",
-    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-6-2026-04-16/"
-  },
-  {
-    "excerpt": "Math Analysis Homework Week 5 Class 1 T1 <div class='cbox' $ f(b) f(a) \\vert k \\vert f'(x 1),f'(x 2) a=0 f(x) 0 (c,d) f(c)=0 f(x) 0,\\forall x\\in (c,d) g(x)=\\ln \\vert f(x) \\vert \\v…",
-    "path": "_posts/homework/sem1/251020-math-analysis-week5-homework.md",
-    "tags": [
-      "math-analysis",
-      "math",
-      "homework"
-    ],
-    "title": "Math Analysis Homework - Week 5",
-    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-5-2026-04-16/"
-  },
-  {
-    "excerpt": "Math Analysis Homework Week 4 Class 1 T1 <div class='cbox' $ $ </div",
-    "path": "_posts/homework/sem1/251013-math-analysis-week4-homework.md",
-    "tags": [
-      "math-analysis",
-      "homework",
-      "math"
-    ],
-    "title": "Math Analysis Homework - Week 4",
-    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-4-2026-04-16/"
+    "urlPath": "/posts/_posts/math/linear-algebra-done-right-2025-10-13/"
   },
   {
     "excerpt": "Math Analysis Homework Week 3 Class 1 T1 <div class='cbox' $ f(0) $ </div",
@@ -537,7 +544,7 @@
       "math"
     ],
     "title": "Math Analysis Homework - Week 3",
-    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-3-2026-04-16/"
+    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-3-2025-10-11/"
   },
   {
     "excerpt": "Math Analysis Homework Week 2 Class 4 T1 <div class=\"cbox\" 设 </div <div class='pbox' $ 0 < a 1 < b 1 a {n+1} = \\sqrt{a n b n}, b {n+1} = \\frac{a n + b n}{2}, n \\in \\mathbb{N} + \\{…",
@@ -548,18 +555,7 @@
       "math"
     ],
     "title": "Math Analysis Homework - Week 2",
-    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-2-2026-04-16/"
-  },
-  {
-    "excerpt": "Math Analysis Homework Week 1 Class 1 Homework T1 <div class='cbox' </div <div class='pbox' Obviously wrong. $ a n=2^{ n} A 0 \\epsilon<A n N a n 0 a n 0 ,\\epsilon 1<1,\\epsilon 2<A…",
-    "path": "_posts/homework/sem1/250915-math-analysis-week1-homework.md",
-    "tags": [
-      "homework",
-      "math-analysis",
-      "math"
-    ],
-    "title": "Math Analysis Homework - Week 1",
-    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-1-2026-04-16/"
+    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-2-2025-09-26/"
   },
   {
     "excerpt": "Linear Algebra Class1 Homework T2 <div class='cbox' Going around a triangle from to to to , what are those three vectors ? What is ? What are their lengths , , and ? The length sq…",
@@ -570,35 +566,39 @@
       "homework"
     ],
     "title": "Linea Algebra Homework - Class 1",
-    "urlPath": "/posts/_posts/homework/sem1/linea-algebra-homework-class-1-2026-04-16/"
+    "urlPath": "/posts/_posts/homework/sem1/linea-algebra-homework-class-1-2025-09-15/"
   },
   {
-    "excerpt": "随便记录些小技巧 How to use clash in linux 配置tun模式: 不sudo的话需要给权限: sudo setcap cap net admin+ep /usr/local/bin/clash How to use clash in windows for UWP apps 管理员权限在powershell运行:",
-    "path": "_posts/code/260306-tricks.md",
+    "excerpt": "Math Analysis Homework Week 1 Class 1 Homework T1 <div class='cbox' </div <div class='pbox' Obviously wrong. $ a n=2^{ n} A 0 \\epsilon<A n N a n 0 a n 0 ,\\epsilon 1<1,\\epsilon 2<A…",
+    "path": "_posts/homework/sem1/250915-math-analysis-week1-homework.md",
     "tags": [
-      "tips"
+      "homework",
+      "math-analysis",
+      "math"
     ],
-    "title": "Tips",
-    "urlPath": "/posts/_posts/code/tips-2026-04-16/"
+    "title": "Math Analysis Homework - Week 1",
+    "urlPath": "/posts/_posts/homework/sem1/math-analysis-homework-week-1-2025-09-15/"
   },
   {
-    "excerpt": "Robomaster Log 何意味 预测器 tf树跨进程通信显然有延迟,消息轮询也有延迟.而运动过程中来自不同来源的机体姿态数据会让最终的机体姿态出现偏移. 神经网络 当尝试使用伪造数据训练模型时,如果对一个识别模型来说,识别数据是否是伪造的难度低于其任务的难度,且可以通过伪造的部分得到答案,那么模型显然可以把自己训练成识别伪造而不是完成本来的任务.可能…",
-    "path": "_posts/code/260306-mysterys-in-robomaster.md",
+    "excerpt": "Linear algebra A fun question <div class='cbox' In n D space we can found at most vector such that: </div <div class='pbox' An example in 3 D space(the one on the book) The constr…",
+    "path": "_posts/math/250915-linear-algebra.md",
     "tags": [
-      "program",
-      "robomaster"
+      "math",
+      "linear-algebra",
+      "note"
     ],
-    "title": "Robomaster Log",
-    "urlPath": "/posts/_posts/code/robomaster-log-2026-04-16/"
+    "title": "Linear Algebra",
+    "urlPath": "/posts/_posts/math/linear-algebra-2025-09-15/"
   },
   {
-    "excerpt": "How to use GPU in WSL2 Write this in And test by to see if there is is or And this may only work for vulkan rather than opengl. Vegetable WSL!",
-    "path": "_posts/code/251209-how-to-use-gpu-in-wsl.md",
+    "excerpt": "Math analysis Class 1 Some Inequality and Def of limit Triangle Inequality <div class='cbox' $ x i=\\dfrac{1}{x i} 2 2 n X=\\sqrt[n]{\\prod i x i} N=N(\\epsilon) N \\epsilon (0,a),a 0…",
+    "path": "_posts/math/250915-math-analysis-classnote.md",
     "tags": [
-      "programming",
-      "tips"
+      "math-analysis",
+      "note",
+      "math"
     ],
-    "title": "How to use GPU in WSL2",
-    "urlPath": "/posts/_posts/code/how-to-use-gpu-in-wsl2-2026-04-16/"
+    "title": "Math Analysis(Class Note)",
+    "urlPath": "/posts/_posts/math/math-analysis-class-note-2025-09-15/"
   }
 ]
