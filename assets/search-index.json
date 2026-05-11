@@ -9,6 +9,17 @@
     "urlPath": "/posts/_posts/others/hello-world-2025-09-02/"
   },
   {
+    "excerpt": "Math Analysis Homework Term 2 Week 8 T1 <div class=\"cbox\" 6. 设函数 由方程 所确定. 证明 $ z xy=xz x+yz y z = z(x,y) \\frac{x}{z} = \\varphi\\left(\\frac{y}{z}\\right) \\varphi F(x+y+z, x^2+y^2+z^2…",
+    "path": "_posts/homework/sem2/Math-Analysis-Homework---Term-2-Week-8.md",
+    "tags": [
+      "math",
+      "math-analysis",
+      "homework"
+    ],
+    "title": "Math Analysis Homework - Sem 2 Week 8",
+    "urlPath": "/posts/_posts/homework/sem2/math-analysis-homework-sem-2-week-8-2026-05-07/"
+  },
+  {
     "excerpt": "Topo Homework Week 9 T1 <div class=\"cbox\" 8. (ER) 找到一个不是商映射的连续满射 . </div <div class=\"pbox\" $ S = S^1 \\times I, \\beta S \\sim x \\in \\text{Int}(S) x \\sim x; \\forall \\theta \\in [0, 2\\…",
     "path": "_posts/homework/sem2/Topo-Homework---Week-9.md",
     "tags": [
